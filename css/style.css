@@ -1,12 +1,13 @@
 html, body {
   height: 100%;
   margin: 0;
+  padding: 0;
 }
 
 .container {
-  /*width: 100vw;*/
   min-height: 100%;
-  border: 3px solid red;
+  margin: 0 auto;
+
 }
 
 #screen_doc {
@@ -16,51 +17,15 @@ html, body {
   height: 100%;
 }
 
-.screen_type {
-  width: 100%;
-  border: 1px solid blue;
-}
-
-
-
-
-
 /*//////////////////////////////*/
 /*/////////////PROCESS//////////*/
 /*//////////////////////////////*/
 
-#process {
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-  justify-content: space-between;
-  height: 100vh;
-
-}
-.process-step {
-  border: 1px solid black;
-  width: 100%;
-}
-
-.process-step:nth-of-type(odd) {
-  border: 1px solid orange;
-}
 
 .card {
   margin-bottom: 12px;
 
 }
-/*.b {
-  border: 1px solid red;
-  width: 70%;
-  height: 40px;
-  right: 0
-}*/
-
-.bla {
-  text-align: right;
-}
-
 
 
 .lg_logo {
@@ -68,18 +33,28 @@ html, body {
   margin: 2% auto;
 }
 
-.fooo {
+/*//////////////////////////////*/
+/*///////FOOTER/////*/
+/*//////////////////////////////*/
+
+.footer {
   display: flex;
-  width: 100vw;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
-.foot {
-  border: 1px solid black;
-  height: 80%;
-
+.footer.container {
+  min-height: 0;
 }
 
+.footer-col {
+  margin-top: 1%;
+}
+
+.footer-details {
+  color: #F17E3A;
+}
 /*//////////////////////////////*/
 /*///////BOOTSTRAP OVERRIDE/////*/
 /*//////////////////////////////*/
@@ -92,6 +67,17 @@ html, body {
   margin-bottom: 0 !important;
 }
 
+.navbar {
+  margin-bottom: 30px !important;
+}
+
+/*#sticky-footer {
+  display: flex;
+  justify-content: space-between;
+}*/
+/*//////////////////////////////*/
+/*/////////////PROCESS//////////*/
+/*//////////////////////////////*/
 
 
 h1{

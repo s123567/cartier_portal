@@ -54,7 +54,9 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('../img/cartier-santos.jpg');
+  /*background-image: url('../img/cartier-santos.jpg');*/
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/cartier-santos.jpg');
+
   background-repeat: no-repeat;
 	background-size: cover;
 }

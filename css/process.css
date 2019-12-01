@@ -44,7 +44,7 @@ h1{
   float:right;
   text-align:left;
   clear:both;
-  color: #F17E3A;
+  color: #A2231F;
 
 }
 .content{
@@ -58,7 +58,7 @@ h1{
   height:10px;
   top:64px;
   right:-6px;
-  background:#F17E3A;
+  background:#A2231F;
   border-radius:50%;
 }
 .timeline ul li:nth-child(even):before

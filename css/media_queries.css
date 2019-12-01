@@ -17,4 +17,18 @@
   .card-body a {
     margin: 5px 0px
   }
+
+  .footer-col a  {
+    font-size: 0.85em;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .footer-col a  {
+    font-size: 0.65em;
+  }
+
+  .footer-col {
+    width: 25%;
+  }
 }

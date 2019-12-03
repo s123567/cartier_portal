@@ -9,15 +9,6 @@ html, body {
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   font-style: light;
-
-}
-
-
-
-.container {
-  min-height: 100%;
-  margin: 0 auto;
-
 }
 
 #screen_doc {
@@ -26,22 +17,6 @@ html, body {
   justify-content: space-around;
   height: 100%;
 }
-
-.jumbotron {
-
-  background-color: #A2A2A2;
-  color: white;
-}
-
-.jumbotron h1 {
-  font-family: 'Alatsi', serif;
-  font-weight: bold;
-}
-
-/*cartier color
-#871C18*/
-
-
 
 /*//////////////////////////////*/
 /*////////////HOME PAGE/////////*/
@@ -102,7 +77,7 @@ color: white;
 }
 
 /*//////////////////////////////*/
-/*/////////////DOCUMENTATION//////////*/
+/*///////DOCUMENTATION//////////*/
 /*//////////////////////////////*/
 
 
@@ -117,7 +92,7 @@ color: white;
 }
 
 /*//////////////////////////////*/
-/*///////FOOTER/////*/
+/*//////////////FOOTER//////////*/
 /*//////////////////////////////*/
 
 .footer {
@@ -170,6 +145,13 @@ color: white;
 
 .jumbotron {
   margin-bottom: 0 !important;
+  background-color: #A2A2A2;
+  color: white;
+}
+
+.jumbotron h1 {
+  font-family: 'Alatsi', serif;
+  font-weight: bold;
 }
 
 .navbar {
@@ -191,4 +173,9 @@ color: white;
 
 * {
   border-radius: 1px !important;
+}
+
+.container {
+  min-height: 100%;
+  margin: 0 auto;
 }
